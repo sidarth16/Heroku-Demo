@@ -3,25 +3,6 @@ from flask import Flask, request, jsonify, render_template
 import pickle
 
 
-import pickle
-from pickle import load
-from pickle import dump
-
-from tensorflow import keras
-import numpy as np
-from flask import Flask, request, jsonify, render_template,redirect,flash,send_file
-
-import os
-import urllib.request
-
-
-from flask import Flask , render_template , request , redirect, url_for,flash
-from werkzeug.utils import secure_filename
-from sudoku_main import sudoku_crop_solve_save
-
-
-import cv2
-
 
 
 
