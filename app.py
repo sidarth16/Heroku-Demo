@@ -39,7 +39,7 @@ def sudoku_filter_sol(req_num):
     return True
 
 #--------------------------------------------------------------------------------------------------------------------
-
+ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 app = Flask(__name__)
 model = pickle.load(open('model.pkl', 'rb'))
 
